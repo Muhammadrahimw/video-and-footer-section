@@ -1,10 +1,9 @@
 import {FaPhone} from "react-icons/fa6";
 import {MdEmail} from "react-icons/md";
-import {FaInstagram} from "react-icons/fa";
 
 const FooterComp = () => {
 	return (
-		<section className="bg-[#00415A] w-full py-[2.5em] tr max-lg:text-[0.9em] max-[830px]:text-[0.8em] max-md:text-[0.65em] max-sm:text-[1em] max-[450px]:text-[0.8em] max-[360px]:text-[0.6em]">
+		<section className="bg-[#00415A] w-full py-[2.5em] tr max-lg:text-[0.9em] max-[830px]:text-[0.8em] max-md:text-[0.65em] max-sm:text-[1em] max-[450px]:text-[0.8em] max-[360px]:text-[0.6em] max-w-[1440px] mx-auto">
 			<div className="w-[90%] mx-auto grid grid-cols-5 gap-[1em] max-sm:grid-cols-2 max-sm:gap-[3em]">
 				<div className="w-full">
 					<div className="bg-white rounded flex items-center justify-center">

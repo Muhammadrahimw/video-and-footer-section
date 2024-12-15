@@ -7,7 +7,7 @@ import FooterComp from "../footer";
 const VideosComp = () => {
 	return (
 		<>
-			<section className="w-[90%] mx-auto grid grid-cols-3 gap-[2em] h-[29.25em] tr max-[1340px]:text-[0.85em] max-[1200px]:text-[0.75em] max-lg:text-[0.65em] max-[930px]:text-[0.6em] max-[830px]:text-[0.55em] max-md:text-[0.5em] max-[700px]:text-[0.45em] max-sm:flex max-sm:flex-col max-sm:text-[1.2em] max-[600px]:text-[1.1em] max-[550px]:text-[1.02em] max-[500px]:text-[0.95em] max-[460px]:text-[0.85em] max-[420px]:text-[0.8em] max-[380px]:text-[0.7em] max-[340px]:text-[0.65em] max-[320px]:text-[0.6em] max-[300px]:text-[0.55em]">
+			<section className="w-[90%] mx-auto grid grid-cols-3 gap-[2em] h-[29.25em] tr max-[1340px]:text-[0.85em] max-[1200px]:text-[0.75em] max-lg:text-[0.65em] max-[930px]:text-[0.6em] max-[830px]:text-[0.55em] max-md:text-[0.5em] max-[700px]:text-[0.45em] max-sm:flex max-sm:flex-col max-sm:text-[1.2em] max-[600px]:text-[1.1em] max-[550px]:text-[1.02em] max-[500px]:text-[0.95em] max-[460px]:text-[0.85em] max-[420px]:text-[0.8em] max-[380px]:text-[0.7em] max-[340px]:text-[0.65em] max-[320px]:text-[0.6em] max-[300px]:text-[0.55em] max-w-[1440px]">
 				<div className="col-span-2 min-h-full max-sm:col-span-1 max-sm:min-h-min">
 					<h2 className="text-[1.5em] text-black font-bold">Videolar</h2>
 					<div className="mt-[2em] bg-[#F1F3F5] p-[3em] flex items-start gap-[2.75em] h-full max-sm:flex-col max-sm:gap-[1em] max-sm:h-[35em] max-sm:p-[1.5em]">
