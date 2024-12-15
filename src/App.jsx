@@ -1,5 +1,11 @@
+import VideosComp from "./components/videos";
+
 const App = () => {
-	return <div>App</div>;
+	return (
+		<>
+			<VideosComp />
+		</>
+	);
 };
 
 export default App;
