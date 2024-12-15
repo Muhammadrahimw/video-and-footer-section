@@ -42,10 +42,10 @@ const FooterComp = () => {
 						Yetkazib berish
 					</a>
 					<a href="#" className="text-[0.9em]">
-						To’lov qilish{" "}
+						To’lov qilish
 					</a>
 					<a href="#" className="text-[0.9em]">
-						Buyutma holati{" "}
+						Buyutma holati
 					</a>
 				</div>
 				<div className="w-full text-white flex flex-col justify-between gap-[0.5em]">
@@ -76,7 +76,7 @@ const FooterComp = () => {
 							<img src="/src/assets/images/app-store.png" alt="app store" />
 						</a>
 					</div>
-					<div className="flex items-center gap-[0.85em]">
+					<div className="flex items-center gap-[0.85em] max-sm:hidden">
 						<a href="#">
 							<img src="/src/assets/images/icons/telegram.svg" alt="telegram" />
 						</a>
@@ -90,6 +90,29 @@ const FooterComp = () => {
 							<img src="/src/assets/images/icons/youtube.svg" alt="youtube" />
 						</a>
 					</div>
+				</div>
+				<div className="hidden items-start gap-[0.85em] max-sm:flex w-full">
+					<a href="#">
+						<img
+							className="w-[2.5em]"
+							src="/src/assets/images/icons/telegram.svg"
+							alt="telegram"
+						/>
+					</a>
+					<a href="#">
+						<img
+							className="w-[2.5em]"
+							src="/src/assets/images/icons/instagram.svg"
+							alt="instagram"
+						/>
+					</a>
+					<a href="#">
+						<img
+							className="w-[2.5em]"
+							src="/src/assets/images/icons/youtube.svg"
+							alt="youtube"
+						/>
+					</a>
 				</div>
 			</div>
 			<div className="border-t w-[90%] mx-auto border-white mt-[2.5em] mb-[2em]"></div>
